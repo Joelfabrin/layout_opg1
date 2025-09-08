@@ -1,0 +1,30 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (width>=500px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+p {
+  padding: 1em;
+  background-color: blue;
+  color: white;
+}
+
+.And {
+  border: 5px solid blue;
+}
